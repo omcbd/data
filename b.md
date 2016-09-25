@@ -6,7 +6,7 @@
   *justify-content
   *align-items
   *align-content
- * 项目 
+* 项目 
   *order
   *flex-grow
   *flex-shrink
