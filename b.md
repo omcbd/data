@@ -1,4 +1,4 @@
-#flex
+# flex
 * 容器
   * flex-direction    设置主轴方向  row | row-reverse | column | column-reverse;
   * flex-wrap         决定如何换行  nowrap | wrap | wrap-reverse; 
