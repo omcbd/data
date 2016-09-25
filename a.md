@@ -1,9 +1,12 @@
-# 三哥代练
-- 青铜
-  - 青铜5——青铜1 100￥
-- 白银
-  - 白银5——白银1 200￥
-
-|青铜|白银|黄金|
-|---|:---|:---:|
-|50|100|150|
+# axios
+```js
+function getMd(add) {
+ +  let address = `https://raw.githubusercontent.com/newming/demodata/master/blog/${add}.md`;
+ +  return axios.get(address)
+ +    .then( (res) => (
+ +      { getMd:res.data }
+ +    ))
+ +    .catch(function (error) {
+ +      alert(error);
+ +    });
+ ```
