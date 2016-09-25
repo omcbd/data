@@ -2,7 +2,7 @@
 npm i marked highlight.js --save
 ```js
 import marked from 'marked'
-import hljs from 'highlight.js
+import hljs from 'highlight.js'
 marked.setOptions({
  +      highlight: function (code) {
  +        return hljs.highlightAuto(code).value;
