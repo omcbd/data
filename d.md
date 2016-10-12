@@ -3,7 +3,8 @@
 `npm install radium --save`
 # 使用方法
 
-1. 引入
+###  1.引入
+
 ```
 var Radium = require('radium');
 
@@ -14,7 +15,7 @@ import Radium from 'radium'
 import Radium from 'radium'
 ```
 
-2. 导出
+###  2.导出
 
 ```
 // For ES6 and ES7
