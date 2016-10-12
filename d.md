@@ -6,6 +6,7 @@
 ###  1.引入
 
     ```
+    
     var Radium = require('radium');
 
     // or
@@ -13,6 +14,7 @@
 
 
     import Radium from 'radium'
+    
     ```
 
 ###  2.导出
@@ -43,6 +45,7 @@
 radium 可以支持三个伪类 `:hover :focus :active`
 
 ```
+
 var styles = {
   base: {
     background: 'blue',
@@ -71,13 +74,16 @@ var styles = {
       boxShadow: '0 3px 0 rgba(0,0,0,0.2)'
     }
   },
+  
 };
+
 ```
 
 > Add media queries to your style objects the same way as you would add browser state modifiers like :hover. The key must start with @media, and the syntax is identical to CSS:
 
 radium支持媒体查询
 ```
+
 var style = {
   width: '25%',
 
@@ -85,6 +91,7 @@ var style = {
     width: '100%'
   }
 };
+
 ```
 > Media query styles can also contain nested browser states:
 
@@ -101,6 +108,7 @@ var style = {
     }
   }
 };
+
 ```
 > Then, include that style object in the array passed to the style attribute if the conditions match:
 
@@ -117,6 +125,7 @@ render(){
       </button>
     );
 }
+
 ```
 
 
