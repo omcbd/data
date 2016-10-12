@@ -5,38 +5,38 @@
 
 ###  1.引入
 
-```
-var Radium = require('radium');
+    ```
+    var Radium = require('radium');
 
-// or
-import Radium from 'radium'
+    // or
+    import Radium from 'radium'
 
 
-import Radium from 'radium'
-```
+    import Radium from 'radium'
+    ```
 
 ###  2.导出
 
-```
-// For ES6 and ES7
-@Radium
-class Button extends React.Component {
-  // ...
-}
+    ```
+    // For ES6 and ES7
+    @Radium
+    class Button extends React.Component {
+      // ...
+    }
 
-// or
-class Button extends React.Component {
-  // ...
-}
-module.exports = Radium(Button);
+    // or
+    class Button extends React.Component {
+      // ...
+    }
+    module.exports = Radium(Button);
 
-// or
-class Button extends React.Component {
-  // ...
-}
-export default radium(Button)
+    // or
+    class Button extends React.Component {
+      // ...
+    }
+    export default radium(Button)
 
-```
+    ```
 
 > Radium supports styling for three browser states that are targeted with pseudo-selectors in normal CSS: :hover, :focus, and :active.
 
